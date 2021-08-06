@@ -115,8 +115,14 @@ hr {
     padding: 2rem 1rem;
     color: white;
     text-align: center;
+    border-top-right-radius: 1rem;
 }
+
 
 .footer .link {
     color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
