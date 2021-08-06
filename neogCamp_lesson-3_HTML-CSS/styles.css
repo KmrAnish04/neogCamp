@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #FF6269;
+    --light-primary: #EDA1A7;
+    --light-gray: #B3BFB8;
 }
 
 body{
@@ -72,4 +74,24 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+} 
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--light-gray);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .role-title {
+    color: var(--light-primary);
 }
