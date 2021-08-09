@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #60A5FA
+}
+
+body {
+    margin: 0px;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1rem 0.5rem;
+}
+
+.element-inline {
+    display: inline;
+
+}
+
+.navigation ul {
+    padding-inline-start: 0px;
+    text-align: right;
+
+}
+
+.nav-content {
+    width: 600px;
+    
+}
+
+.inlineLeft{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.inlineLeft, .inlineRight {
+    display: inline-block;
+}
+
+.inlineRight {
+   display:inline-block;
+    position:absolute;
+    right:0;
+}
