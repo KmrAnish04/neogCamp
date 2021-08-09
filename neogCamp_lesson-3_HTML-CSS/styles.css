@@ -63,6 +63,7 @@ hr {
 
 .navigation .nav-brand{
     font-weight: bold;
+    font-size: 40px;
 }
 
 .navigation .nav-pills{
@@ -100,6 +101,7 @@ hr {
 /* section */
 .section {
     padding: 2rem;
+    margin: 3rem 0rem;
 }
 
 .section h1 {
