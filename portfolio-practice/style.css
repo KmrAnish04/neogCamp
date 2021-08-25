@@ -136,7 +136,7 @@ body{
 .header-cont-img > img{
     width: 40vw;
     height: 30vw;
-    margin: auto;
+    margin: auto auto auto 11%;
 }
 
 .header-aboutme{
