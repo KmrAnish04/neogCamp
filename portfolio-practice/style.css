@@ -68,12 +68,21 @@ body{
     margin: auto;
 }
 .flex-col2{
-    /* display: flex; */
-    /* justify-content: center; */
     margin: auto;
     flex-basis: 50%;
     flex-grow: 1;
     padding: 2%;
+}
+
+.flex-container-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row-align-center{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
 
@@ -173,10 +182,254 @@ body{
 
 /* TechStack Section Starts Here */
 
-.techstack-secton{
-    width: 500px;
-    height: 500px;
-    border: 1px solid red;
+.techstack-div{
+    margin: auto 25px;
+}
+.techstack-content{
+    display: flex;
+    flex-direction: column;
+}
+.techstack-heading{
+    font-size: 2.5rem;
+}
+
+.techstack-logo-section{
+    width: 50vw;
+    height: 30vw;
+    margin: auto;
+}
+
+.techstack-tech-logos{
+    display: grid;
+    grid-template-columns: repeat(6, 8.3vw);
+    grid-template-rows: repeat(4, 9vw);
+    margin: auto auto;
+    /* box-sizing: border-box; */
+    /* width: 40vw;
+    height: 42vw; */
+}
+
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-4{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-5{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-6{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-7{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+.item-8{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-9{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-10{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-11{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-12{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+.item-13{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-14{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-15{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-16{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-17{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-18{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-19{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
+}
+
+.item-20{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
+}
+.item-21{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
+}
+.item-22{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
+}
+.item-23{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
+}
+.item-24{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: center;
+    margin: auto;    
 }
 
 /* TechStack Section Ends Here */
