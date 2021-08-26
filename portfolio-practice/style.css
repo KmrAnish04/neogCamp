@@ -35,7 +35,7 @@ body{
     border: 3px solid var(--gray-tailwind);
     border-radius: 0.7rem;
     padding: 0.6rem;
-    color: white;
+    color: var(--primary-color);
     /* background-color: var(--primary-color); */
 }
 
@@ -83,6 +83,13 @@ body{
     display: flex;
     flex-direction: row;
     margin: auto;
+}
+
+.spacing-primary{
+    background-color: #111827;
+    margin: 1rem 0 0 0;
+    width: 100vw;
+    height: 100px;
 }
 
 
@@ -180,34 +187,75 @@ body{
 /* Header Ends Here */
 
 
-/* TechStack Section Starts Here */
 
-.techstack-div{
-    margin: auto 25px;
+
+
+
+/* Techstack Section Starts Here */
+
+.techstack-section{
+    padding: 0px 24px;
+    background-color: #111827;
 }
+
+
 .techstack-content{
+    max-width: 650px;
+    margin: auto;
+    align-content: center;
     display: flex;
     flex-direction: column;
+    border: 2px solid var(--primary-color);
+    border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px;
+    padding: 35px;
 }
+
 .techstack-heading{
-    font-size: 2.5rem;
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--gray-tailwind); 
+    /* padding: 15px;
+    border: 2px solid;
+    border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px; */
 }
 
-.techstack-logo-section{
-    width: 50vw;
-    height: 30vw;
-    margin: auto;
+#techstack-heading-oo{
+    color: var(--primary-color);
 }
 
-.techstack-logo{
+.tech-pills-cont{
+    margin-top: 32px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 100%;
     box-sizing: border-box;
 }
 
+.pill{
+    flex-grow: 0;
+    max-width: 16.66%;
+    flex-basis: 16.66%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
 
+.tech-name-pic{
+    display: flex;
+    flex-direction: column;
+}
 
-/* TechStack Section Ends Here */
+.tech-name{
+    margin-bottom: 0px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.tech-img > img{  
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    
+}
+
+/* Techstack Section Ends Here */
