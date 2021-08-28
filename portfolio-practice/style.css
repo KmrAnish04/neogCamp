@@ -6,6 +6,7 @@
     --watermelon-dark: #FF0266;
     --watermelon-light: #FF7597;
     --gray-tailwind:#9CA3AF;
+    --light-black: #111827;
 }
 
 
@@ -86,10 +87,28 @@ body{
 }
 
 .spacing-primary{
-    background-color: #111827;
+    background-color: black;
     margin: 1rem 0 0 0;
     width: 100vw;
     height: 100px;
+}
+
+.section-heading{
+    margin: 2vw auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--gray-tailwind);
+}
+
+.section-heading:hover{
+    color: var(--primary-color);
+}
+
+.sub-heading{
+    display: block;
+    font-size: 30px;
+    margin: 20px auto 10px auto;
+    color: var(--gray-tailwind);
 }
 
 
@@ -194,8 +213,24 @@ body{
 /* Techstack Section Starts Here */
 
 .techstack-section{
-    padding: 0px 24px;
-    background-color: #111827;
+    /* padding: 0px 24px; */
+    /* background-color: var(--light-black); */
+}
+
+.techstack-outer-block{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: max-content;
+    margin: auto;
+}
+
+.techstack-content-block{
+    width: 80vw;
+    height: max-content;
+    margin: auto;
+    background-color: var(--light-black);
+    padding: 2%;
 }
 
 
@@ -208,13 +243,11 @@ body{
     border: 2px solid var(--primary-color);
     border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px;
     padding: 35px;
+    
 }
 
 .techstack-heading{
-    margin: 0px auto;
-    font-weight: bold;
-    font-size: 50px;
-    color: var(--gray-tailwind); 
+
     /* padding: 15px;
     border: 2px solid;
     border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px; */
@@ -259,3 +292,43 @@ body{
 }
 
 /* Techstack Section Ends Here */
+
+/* Projects Section Starts Here */
+
+.projects-section{}
+
+.project-main{
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: max-content;
+    margin: auto;
+    border: 1px solid var(--primary-color);
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: max-content; /*max content*/
+    margin: auto;
+    background-color: var(--light-black);
+}
+
+.project-item{
+    margin: 2px auto;
+}
+
+.project-disc{
+    margin: 0;
+}
+.project-demo{
+    margin: 0;
+}
+
+.project-demo > img{
+    width: 100%;
+    height: fit-content;
+}
+
+/* Projects Section Ends Here */
