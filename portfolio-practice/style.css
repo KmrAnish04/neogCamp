@@ -333,3 +333,22 @@ body{
 }
 
 /* Projects Section Ends Here */
+
+
+/* Footer Starts Here */ 
+
+.footer-section{}
+
+.footer-div{}
+
+.footer-content{
+    margin: auto;
+    padding: 0 25px;
+}
+
+.footer-SayHi{}
+.footer-SocialLinks{}
+
+
+
+/* Footer Ends Here */ 
