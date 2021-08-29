@@ -347,8 +347,28 @@ body{
 }
 
 .footer-SayHi{}
+
+.footer-SayHi-img-block{
+    
+}
+
+.footer-SayHi-img-block > img{
+    width: 30vw;
+    height: 30vw;
+    /* float: right; */
+}
+
+.footer-SayHi-form-block{
+    margin: 0 auto;
+}
 .footer-SocialLinks{}
 
+
+.footer-form-name{
+    width: 80%;
+    height: 22px;
+    background-color: #9CA3AF;
+}
 
 
 /* Footer Ends Here */ 
