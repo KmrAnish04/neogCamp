@@ -366,11 +366,23 @@ body{
 .footer-SocialLinks{}
 
 
-.footer-form-name{
-    width: 80%;
-    height: 22px;
-    background-color: #9CA3AF;
+.footer-form-div{
+    width: max-content;
+    height: max-content;
+    margin: 1rem 0;
 }
 
+.footer-input-text, .footer-input-email, .footer-input-message{
+    width: 30vw;
+    height: 2vw;
+    border: 1px solid var(--primary-color);
+    color: white;
+    background-color: transparent;
+}
+
+.footer-label{
+    font-weight: normal;
+    font-size: large;
+}
 
 /* Footer Ends Here */ 
