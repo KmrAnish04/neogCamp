@@ -337,7 +337,9 @@ body{
 
 /* Footer Starts Here */ 
 
-.footer-section{}
+.footer-section{
+    background-color: var(--light-black);
+}
 
 .footer-div{}
 
@@ -354,7 +356,7 @@ body{
 
 .footer-SayHi-img-block > img{
     width: 30vw;
-    height: 30vw;
+    height: 10vw;
     /* float: right; */
 }
 
