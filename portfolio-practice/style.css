@@ -341,7 +341,12 @@ body{
     background-color: var(--light-black);
 }
 
-.footer-div{}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 25px;
+}
 
 .footer-content{
     margin: auto;
@@ -398,6 +403,21 @@ body{
 .footer-label{
     font-weight: normal;
     font-size: large;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social-icons-list{
+    padding-inline-start: 0;
 }
 
 /* Footer Ends Here */ 
